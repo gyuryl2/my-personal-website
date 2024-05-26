@@ -14,7 +14,7 @@ function Body() {
             id: 1, 
             title: "Linux-like Kernel", 
             desc: "3 developers and I implemented a Linux-like kernel with robust interrupt handling, including IDT configuration for keyboard and RTC interrupts. We implemented paging for memory alignment and developed drivers for terminals, file systems, and RTCs, enhancing functionality with features like vertical scrolling and adjustable virtualized clock frequencies. Additionally, we implemented system calls for effective program and file system management, supported multiple shell instances, and introduced a preemptive scheduler to manage up to six processes across multiple terminals, optimizing task switching and system performance.", 
-            img: "/391os.gif" 
+            img: process.env.PUBLIC_URL + "/391os.gif" 
         },
         { 
             id: 2, 
