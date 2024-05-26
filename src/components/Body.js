@@ -74,7 +74,7 @@ function Body() {
 
                 <div className="intro-container">
                     <div className="profile-img-container">
-                        <img className="profile" src="./my-personal-website/grad_pic.png" alt="Gyury Lee" />
+                        <img className="profile" src={process.env.PUBLIC_URL + "/grad_pic.png"} alt="Gyury Lee" />
                     </div>
 
                     <div className="profile-img-container">
