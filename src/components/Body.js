@@ -20,19 +20,19 @@ function Body() {
             id: 2, 
             title: "Elden Ring Speedrun Optimizer", 
             desc: "4 fellow developers and I optimized speedrunning routes in the video game Elden Ring by representing the game's map as a weighted, directed graph with bosses as nodes and travel times as edges.\n\nWe implemented various algorithms to find the shortest paths for both comprehensive (100% completion) and specific boss-to-boss routes, and displayed the computed paths using a Python GUI.\n\nData for the graph was meticulously gathered from actual gameplay by one of our team members, an avid Elden Ring enthusiast.", 
-            img: src={process.env.PUBLIC_URL + "/ER_project.png"}
+            img: process.env.PUBLIC_URL + "/ER_project.png"
         },
         { 
             id: 3, 
             title: "ML Project Management", 
             desc: "Description for Project 3", 
-            img: src={process.env.PUBLIC_URL + "/workflow.png"}
+            img: process.env.PUBLIC_URL + "/workflow.png"
         },
         { 
             id: 4, 
             title: "Dear (My) Data", 
             desc: "Inspired by the year-long, analog data drawing project by Giorgia Lupi and Stefanie Posavec called “Dear Data” centered around creating novel and human-centered representations of collected personal data, this project represents my own way of visualizing my music consumption over a week. In this project, I developed a Python application I had run continuously for a week to fetch data on the tracks I listened to, their artists, durations, and genres using Spotify API. I then used this log to categorize and visualize my listening habits by genre, which unveiled interesting patterns in my music consumption and how they juxtaposed various psychological and situational factors during the week.", 
-            img: src={process.env.PUBLIC_URL + "/dear_data.png"}
+            img: process.env.PUBLIC_URL + "/dear_data.png"
         }
     ];
     
