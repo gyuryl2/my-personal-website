@@ -202,7 +202,6 @@
 .project:hover {
     cursor: pointer;
     transition: opacity 0.3s ease;
-    transform: scale(1.01);
 }
 
 .overlay {
