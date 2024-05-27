@@ -128,7 +128,7 @@ function Body() {
 
                         <div className="profile-img-container">
                             {/* Link to open PDF in a new tab */}
-                            <a href="/Gyury_resume_5-25.pdf" target="_blank" style={{ textDecoration: 'none' }}>
+                            <a href={process.env.PUBLIC_URL + "/Gyury_resume_5-25.pdf"} target="_blank" style={{ textDecoration: 'none' }}>
                                 <div className="project-image-container">
                                     <img className="profile" src={process.env.PUBLIC_URL + "/resume.png"} alt="Resume" />
                                     <div className="resume-overlay"></div>
