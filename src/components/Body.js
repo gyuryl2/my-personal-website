@@ -19,19 +19,21 @@ function Body() {
         { 
             id: 2, 
             title: "Elden Ring Speedrun Optimizer", 
-            desc: "4 fellow developers and I optimized speedrunning routes in the video game Elden Ring by representing the game's map as a weighted, directed graph with bosses as nodes and travel times as edges.\n\nWe implemented various algorithms to find the shortest paths for both comprehensive (100% completion) and specific boss-to-boss routes, and displayed the computed paths using a Python GUI.\n\nData for the graph was meticulously gathered from actual gameplay by one of our team members, an avid Elden Ring enthusiast.", 
+            desc: `4 fellow developers and I optimized speedrunning routes in the video game Elden Ring by representing the game's map as a weighted, directed graph with bosses as nodes and travel times as edges. 
+            
+                To tackle the challenge, we accounted for intricate gameplay dynamics such as boss fight prerequisites and area access restrictions, which required certain bosses to be defeated before others could be accessed. These constraints necessitated more creative, innovative solutions to ensure accurate pathfinding. We implemented various algorithms to identify the most efficient routes, both for comprehensive (100% completion) and specific boss-to-boss sequences, and showcased the computed paths through a Python-based GUI. 
+                
+                Data for the graph was meticulously gathered from actual gameplay by one of our team members, an avid Elden Ring enthusiast.`, 
             img: process.env.PUBLIC_URL + "/ER_project.png"
         },
         {
             id: 3,
-            title: "Data Analysis Project Management",
-            desc: [
-                "To supplement statistical analysis, I developed an automated data analysis pipeline to create a reproducible and scalable project infrastructure, which significantly enhanced the management of dependencies and streamlined the execution processes that are oftentimes a barrier to 3rd-party verification and reproduction of data analysis.",
-                "",
-                "This process involves more than the simple automation of mundane tasks. It also supports a robust, modular structure that could easily be scaled and adapted as needed. This ability to abstract away the many planes of complications related to building the project to completion, something ubiquitously important throughout the tech industry, makes it easier for our audience to focus on what is important to them - the analysis and results.",
-                "",
-                "Above is the DAG representation of the pipeline specific to Iris flower data analysis used to demonstrate the workflow."
-            ].join('\n'),
+            title: "ML Project Management",
+            desc: `To supplement statistical analysis, I developed an automated data analysis pipeline to create a reproducible and scalable project infrastructure, which significantly enhanced the management of dependencies and streamlined the execution processes that are oftentimes a barrier to 3rd-party verification and reproduction of data analysis.
+
+                This process involves more than the simple automation of mundane tasks. It also supports a robust, modular structure that could easily be scaled and adapted as needed. This ability to abstract away the many planes of complications related to building the project to completion, something ubiquitously important throughout the tech industry, makes it easier for our audience to focus on what is important to them - the analysis and results.
+
+                Above is the DAG representation of the pipeline specific to Iris flower data analysis used to demonstrate the workflow.`,
             img: process.env.PUBLIC_URL + "/workflow.png"
         },
         { 
