@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useInView } from 'react-intersection-observer';
 import './Body.css';
+import Demo from './Demo';
 
 
 
@@ -21,7 +22,7 @@ function Body() {
             title: "Elden Ring Speedrun Optimizer", 
             desc: `4 fellow developers and I optimized speedrunning routes in the video game Elden Ring by representing the game's map as a weighted, directed graph with bosses as nodes and travel times as edges. 
             
-                To tackle the challenge, we accounted for intricate gameplay dynamics such as boss fight prerequisites and area access restrictions, which required certain bosses to be defeated before others could be accessed. These constraints necessitated more creative, innovative solutions to ensure accurate pathfinding. We implemented various algorithms to identify the most efficient routes, both for comprehensive (100% completion) and specific boss-to-boss sequences, and showcased the computed paths through a Python-based GUI. 
+                Since we had to account for intricate gameplay dynamics such as boss fight prerequisites and area access restrictions, which required certain bosses to be defeated before others could be accessed. These constraints necessitated more innovative implementation of various algorithms to identify the most efficient routes, both for comprehensive (100% completion) and specific boss-to-boss sequences. The image above showcases the computed paths through a Python-based GUI. 
                 
                 Data for the graph was meticulously gathered from actual gameplay by one of our team members, an avid Elden Ring enthusiast.`, 
             img: process.env.PUBLIC_URL + "/ER_project.png"
@@ -139,7 +140,7 @@ function Body() {
 
                         <div className="profile-img-container">
                             {/* Link to open PDF in a new tab */}
-                            <a href={process.env.PUBLIC_URL + "/Gyury_resume_5-25.pdf"} target="_blank" style={{ textDecoration: 'none' }}>
+                            <a href={process.env.PUBLIC_URL + "/Gyury Resume 6-2.pdf"} target="_blank" style={{ textDecoration: 'none' }}>
                                 <div className="project-image-container">
                                     <img className="profile" src={process.env.PUBLIC_URL + "/resume.png"} alt="Resume" />
                                     <div className="resume-overlay"></div>
@@ -152,13 +153,16 @@ function Body() {
                 <div id="contact" className={`section ${contactInView ? 'section-visible' : 'section-hidden'}`} ref={contactRef}>
                     <p className="contact-text"> Get in touch with me at <a href="mailto:youremail@example.com" style={{ textDecoration: 'none', color: 'hsl(70, 100%, 40%)' }}>gyury.lee9@gmail.com</a></p>
                 </div>
+
+                {/* <Demo></Demo> */}
                 
                 <div id="outro" className={`section ${outroInView ? 'section-visible' : 'section-hidden'}`} ref={outroRef}>
                     <div className="outro-tab"></div>   
                 </div>
-   
+                
             </div>
         </div>
+
     );
 }
 
