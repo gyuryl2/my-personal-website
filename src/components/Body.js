@@ -62,11 +62,6 @@ function Body() {
         threshold: 0.25
     })
 
-    useEffect(() => {
-        const img = new Image();
-        img.src = process.env.PUBLIC_URL + "/grad_pic.png";
-    }, []);
-
     return (
         <div className="body">
             {selectedProject && <div className="full-screen-overlay active"></div>}        
@@ -77,7 +72,7 @@ function Body() {
 
                 <div className="intro-container">
                     <div className="profile-img-container">
-                        <img className="profile" src={process.env.PUBLIC_URL + "/grad_pic.png"} alt="Gyury Lee" />
+                        <img className="profile" src="https://dn0w09n4za09x.cloudfront.net/grad_pic.png" alt="Gyury Lee" />
                         {/* <link rel="preload" href="%PUBLIC_URL%/grad_pic.png" as="image"/> */}
                     </div>
 
