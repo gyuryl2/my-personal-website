@@ -77,7 +77,7 @@ function Body() {
 
                 <div className="intro-container">
                     <div className="profile-img-container">
-                        <img className="profile" src="https://dn0w09n4za09x.cloudfront.net/grad_pic.png" alt="Gyury Lee" />
+                        <img className="profile" src="https://dn0w09n4za09x.cloudfront.net/grad_pic.png" loading="eager" alt="Gyury Lee" />
                     </div>
 
                     <div className="profile-img-container">
