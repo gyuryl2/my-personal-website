@@ -355,7 +355,7 @@
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .popup_desc {
-        font-size: calc(0.75vw + 0.85vh); /* Larger font size for readability */
+        font-size: min(calc(0.75vw + 0.85vh), 12); /* Larger font size for readability */
         padding: 20px; /* Larger padding */
     }
 }
