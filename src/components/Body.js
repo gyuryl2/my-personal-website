@@ -22,7 +22,7 @@ function Body() {
             title: "Elden Ring Speedrun Optimizer", 
             desc: `4 fellow developers and I optimized speedrunning routes in the video game Elden Ring by representing the game's map as a weighted, directed graph with bosses as nodes and travel times as edges. 
             
-                Since we had to account for intricate gameplay dynamics such as boss fight prerequisites and area access restrictions, which required certain bosses to be defeated before others could be accessed. These constraints necessitated more innovative implementation of various algorithms to identify the most efficient routes, both for comprehensive (100% completion) and specific boss-to-boss sequences. The image above showcases the computed paths through a Python-based GUI. 
+                We had to account for intricate gameplay dynamics such as boss fight prerequisites and area access restrictions, which required certain bosses to be defeated before others could be accessed. These constraints necessitated more innovative implementation of various algorithms to identify the most efficient routes, both for comprehensive (100% completion) and specific boss-to-boss sequences. The image above showcases the computed paths through a Python-based GUI. 
                 
                 Data for the graph was meticulously gathered from actual gameplay by one of our team members, an avid Elden Ring enthusiast.`, 
             img: process.env.PUBLIC_URL + "/ER_project.png"
