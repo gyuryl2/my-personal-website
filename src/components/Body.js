@@ -22,16 +22,22 @@ function Body() {
             desc: "4 fellow developers and I optimized speedrunning routes in the video game Elden Ring by representing the game's map as a weighted, directed graph with bosses as nodes and travel times as edges.\n\nWe implemented various algorithms to find the shortest paths for both comprehensive (100% completion) and specific boss-to-boss routes, and displayed the computed paths using a Python GUI.\n\nData for the graph was meticulously gathered from actual gameplay by one of our team members, an avid Elden Ring enthusiast.", 
             img: process.env.PUBLIC_URL + "/ER_project.png"
         },
-        { 
-            id: 3, 
-            title: "ML Project Management", 
-            desc: "Description for Project 3", 
+        {
+            id: 3,
+            title: "Data Analysis Project Management",
+            desc: [
+                "To supplement statistical analysis, I developed an automated data analysis pipeline to create a reproducible and scalable project infrastructure, which significantly enhanced the management of dependencies and streamlined the execution processes that are oftentimes a barrier to 3rd-party verification and reproduction of data analysis.",
+                "",
+                "This process involves more than the simple automation of mundane tasks. It also supports a robust, modular structure that could easily be scaled and adapted as needed. This ability to abstract away the many planes of complications related to building the project to completion, something ubiquitously important throughout the tech industry, makes it easier for our audience to focus on what is important to them - the analysis and results.",
+                "",
+                "Above is the DAG representation of the pipeline specific to Iris flower data analysis used to demonstrate the workflow."
+            ].join('\n'),
             img: process.env.PUBLIC_URL + "/workflow.png"
         },
         { 
             id: 4, 
             title: "Dear (My) Data", 
-            desc: "Inspired by the year-long, analog data drawing project by Giorgia Lupi and Stefanie Posavec called “Dear Data” centered around creating novel and human-centered representations of collected personal data, this project represents my own way of visualizing my music consumption over a week. In this project, I developed a Python application I had run continuously for a week to fetch data on the tracks I listened to, their artists, durations, and genres using Spotify API. I then used this log to categorize and visualize my listening habits by genre, which unveiled interesting patterns in my music consumption and how they juxtaposed various psychological and situational factors during the week.", 
+            desc: "Inspired by the year-long, analog data drawing project by Giorgia Lupi and Stefanie Posavec called “Dear Data” centered around creating novel and human-centered representations of collected personal data, this project represents my own way of visualizing my music consumption over a week. In this project, I developed a Python application I had run continuously for a week to fetch data on the tracks I listened to, their artists, durations, and genres using Spotify API. I then used this log to categorize and visualize my listening habits by genre, which unveiled interesting patterns in my day-to-day relationship with music.", 
             img: process.env.PUBLIC_URL + "/dear_data.png"
         }
     ];
