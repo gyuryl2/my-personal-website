@@ -315,7 +315,6 @@
 
 
 .popup_desc {
-    max-height: 60%;
     width: 90%;
     overflow-y: auto; /* Ensures scrollability within the popup if content is too long */
     flex-direction: column; /* Stack children vertically */
