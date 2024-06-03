@@ -320,7 +320,7 @@
     flex-direction: column; /* Stack children vertically */
     color: #555;
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-size: calc(0.70vw + 0.70vh) ;
+    font-size: calc(0.70vw + 0.60vh) ;
     font-weight: 300;
 
     justify-content: center;
