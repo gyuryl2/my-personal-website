@@ -321,7 +321,7 @@
     flex-direction: column; /* Stack children vertically */
     color: #555;
     font-family: 'Raleway', Helvetica, Arial, sans-serif;
-    font-size: min(calc(0.65vw + 0.75vh), 12) ;
+    font-size: calc(0.65vw + 0.75vh) ;
     font-weight: 300;
 
     justify-content: center;
@@ -336,31 +336,6 @@
     align-items: center; /* Center content horizontally */
     text-align: center; /* Centers text if there are multiple lines */
 }
-
-/* Smaller devices (phones, less than 768px) */
-@media (max-width: 767px) {
-    .popup_desc {
-        font-size: calc(0.6vw + 0.6vh); /* Adjust font size */
-        padding: 10px; /* Smaller padding */
-    }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) {
-    .popup_desc {
-        font-size: calc(0.65vw + 0.75vh); /* Slightly larger font */
-        padding: 15px; /* Medium padding */
-    }
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-    .popup_desc {
-        font-size: min(0.75vh, 12); /* Larger font size for readability */
-        padding: 20px; /* Larger padding */
-    }
-}
-
 
 
 
